@@ -10,7 +10,7 @@ char c;
 
 c = 'z';
 while
-(c <= 'a')
+(c >= 'a')
 {putchar(c);
 c--;
 }
