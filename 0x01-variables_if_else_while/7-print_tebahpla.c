@@ -5,6 +5,7 @@
  */
 int main(void)
 {
+
 char z;
 
 c = 'z';
@@ -13,6 +14,6 @@ while
 {putchar(c);
 z--;
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
