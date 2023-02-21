@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main-Entry point putchar(void)
+ * main-Entry point
  * Description:print -putchar in a new line
- * Return:this program returns zero
+ * Return: 0 this program returns zero
  */
 
-int putchar(void)
+int main(void)
 {
-putchar('_');
-putchar('p');
-putchar('u');
-putchar('t');
-putchar('c');
-putchar('h');
-putchar('a');
-putchar('r');
-putchar('\n');
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
