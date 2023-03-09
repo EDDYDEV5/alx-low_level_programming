@@ -7,6 +7,7 @@
  *       used in the 0x08-Recursion directory.
  */
 
+void _print_rev_recursion(char *s);
 void _puts_recursion(char *s);
 
 #endif
