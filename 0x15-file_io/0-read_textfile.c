@@ -17,9 +17,7 @@ ssize_t o, r, w;
 char *buffer;
 
 if (filename == NULL)
-{
 return (0);
-}
 
 buffer = malloc(sizeof(char) * letters);
 if (buffer == NULL)
@@ -32,10 +30,10 @@ w = write(STDOUT_FILENO, buffer, r);
 if (o == -1 || r == -1 || w == -1 || w != r)
 {
 free(buffer);
-close(0);
+return (0);
 }
 free(buffer);
-close(0);
+close(o);
 
 return (w);
 }
